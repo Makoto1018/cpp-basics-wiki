@@ -1,0 +1,7 @@
+80-missing-semicolon.cpp: In function 'int main()':
+80-missing-semicolon.cpp:7:34: error: expected ';' before 'return'
+    7 |     std::cout << "Hello world!\n"   // ← 這行少了分號
+      |                                  ^
+      |                                  ;
+    8 |     return 0;
+      |     ~~~~~~                        

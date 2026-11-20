@@ -1,0 +1,7 @@
+94-while-semicolon.cpp: In function 'int main()':
+94-while-semicolon.cpp:9:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+    9 |     while (count <= 10);        // ← 多了分號：迴圈主體變成「什麼都不做」
+      |     ^~~~~
+94-while-semicolon.cpp:10:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'while'
+   10 |     {
+      |     ^

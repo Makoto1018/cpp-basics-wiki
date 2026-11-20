@@ -1,0 +1,8 @@
+84-digit-identifier.cpp: In function 'int main()':
+84-digit-identifier.cpp:7:9: error: expected unqualified-id before numeric constant
+    7 |     int 1x = 5;                 // ← 識別字不能用數字開頭
+      |         ^~
+84-digit-identifier.cpp:8:18: error: unable to find numeric literal operator 'operator""x'
+    8 |     std::cout << 1x << '\n';
+      |                  ^~
+84-digit-identifier.cpp:8:18: note: use '-fext-numeric-literals' to enable more built-in suffixes

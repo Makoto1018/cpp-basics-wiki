@@ -1,0 +1,10 @@
+88-caret-power.cpp: In function 'int main()':
+88-caret-power.cpp:7:21: warning: result of '2^3' is 1; did you mean '1 << 3' (8)? [-Wxor-used-as-pow]
+    7 |     std::cout << (2 ^ 3) << '\n';   // ← 想算 2 的 3 次方，但 ^ 不是次方
+      |                     ^
+      |                   -
+      |                   1 <<
+88-caret-power.cpp:7:19: note: you can silence this warning by using a hexadecimal constant (0x2 rather than 2)
+    7 |     std::cout << (2 ^ 3) << '\n';   // ← 想算 2 的 3 次方，但 ^ 不是次方
+      |                   ^
+      |                   0x2

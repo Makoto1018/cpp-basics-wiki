@@ -1,0 +1,7 @@
+# check-examples.sh 編譯失敗時留下的紀錄（通過時會自動刪除）
+*.compile.log
+# 編譯產生的執行檔
+*.exe
+
+# 繳交表單另外填，不放進 repo
+SUBMISSION.md

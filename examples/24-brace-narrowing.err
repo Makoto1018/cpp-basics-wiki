@@ -1,0 +1,4 @@
+24-brace-narrowing.cpp: In function 'int main()':
+24-brace-narrowing.cpp:7:11: error: narrowing conversion of '4.5e+0' from 'double' to 'int' [-Wnarrowing]
+    7 |     int w{4.5};                 // 用大括號初始化：編譯器會擋下來
+      |           ^~~

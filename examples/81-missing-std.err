@@ -1,0 +1,9 @@
+81-missing-std.cpp: In function 'int main()':
+81-missing-std.cpp:7:5: error: 'cout' was not declared in this scope; did you mean 'std::cout'?
+    7 |     cout << "Hello world!\n";   // ← 少了 std::
+      |     ^~~~
+      |     std::cout
+In file included from 81-missing-std.cpp:3:
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream:65:18: note: 'std::cout' declared here
+   65 |   extern ostream cout;          ///< Linked to standard output
+      |                  ^~~~

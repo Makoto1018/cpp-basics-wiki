@@ -1,0 +1,4 @@
+89-assign-in-if.cpp: In function 'int main()':
+89-assign-in-if.cpp:10:11: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   10 |     if (x = 0) {                // ← 應該是 ==，這裡變成「把 0 賦值給 x」
+      |         ~~^~~

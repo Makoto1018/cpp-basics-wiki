@@ -1,0 +1,7 @@
+91-missing-braces.cpp: In function 'int main()':
+91-missing-braces.cpp:10:5: warning: this 'else' clause does not guard... [-Wmisleading-indentation]
+   10 |     else
+      |     ^~~~
+91-missing-braces.cpp:12:9: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'else'
+   12 |         std::cout << "Too bad!\n";  // ← 看起來屬於 else，其實不是
+      |         ^~~

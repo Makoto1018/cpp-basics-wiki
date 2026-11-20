@@ -1,0 +1,6 @@
+85-char-double-quotes.cpp: In function 'int main()':
+85-char-double-quotes.cpp:7:18: error: invalid conversion from 'const char*' to 'char' [-fpermissive]
+    7 |     char grade = "A";           // ← 字元要用單引號 'A'，雙引號是文字
+      |                  ^~~
+      |                  |
+      |                  const char*

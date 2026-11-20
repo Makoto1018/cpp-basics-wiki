@@ -1,0 +1,3 @@
+82-slash-n.cpp:7:29: warning: multi-character character constant [-Wmultichar]
+    7 |     std::cout << "Hello" << '/n';   // ← 斜線方向寫反了，應該是 '\n'
+      |                             ^~~~

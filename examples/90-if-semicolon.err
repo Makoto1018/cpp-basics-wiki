@@ -1,0 +1,10 @@
+90-if-semicolon.cpp: In function 'int main()':
+90-if-semicolon.cpp:8:16: warning: suggest braces around empty body in an 'if' statement [-Wempty-body]
+    8 |     if (x > 10);                // ← 多了一個分號：if 到這裡就結束了
+      |                ^
+90-if-semicolon.cpp:8:5: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+    8 |     if (x > 10);                // ← 多了一個分號：if 到這裡就結束了
+      |     ^~
+90-if-semicolon.cpp:9:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    9 |     {
+      |     ^

@@ -1,0 +1,3 @@
+# 全部用 LF：check-examples.sh 要用 bash 執行，.out/.err/.in 要和實際輸出逐字比對
+# （這台電腦的系統設定 core.autocrlf=true，checkout 時會改成 CRLF）
+* text=auto eol=lf

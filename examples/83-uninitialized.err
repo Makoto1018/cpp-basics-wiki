@@ -1,0 +1,7 @@
+83-uninitialized.cpp: In function 'int main()':
+83-uninitialized.cpp:9:23: warning: 'x' is used uninitialized [-Wuninitialized]
+    9 |     std::cout << x << '\n';     // 印出來的值無法預測
+      |                       ^~~~
+83-uninitialized.cpp:8:9: note: 'x' was declared here
+    8 |     int x;                      // ← 沒有初始化
+      |         ^
