@@ -234,3 +234,7 @@
   - 在 shell 裡處理含 `|` 的 Markdown 表格很危險，改表格一律用 Edit 工具。
   - 這個專案應該用 git 管理，才能安全地還原 → 列入待辦。
 - 最終：check-examples 53/53、check-wiki-code 122/122、連結 198/198、slides/check.mjs 82/82。
+
+## [2026-11-21] process | 開始用 git 版本控制
+- 完成上一筆的待辦：`git init`，第一個 commit 收錄目前全部內容（check-examples 53/53、check-wiki-code 122/122、slides/check.mjs 82/82）。
+- 發現這台電腦的系統設定 `core.autocrlf=true`，checkout 時會把檔案改成 CRLF，`check-examples.sh` 和 `.out` 的比對都會壞 → 新增 `.gitattributes` 固定用 LF；`.gitignore` 排除 `*.compile.log`、`*.exe`。
